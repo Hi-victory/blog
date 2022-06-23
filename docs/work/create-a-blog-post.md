@@ -1,5 +1,5 @@
 ---
-sidebar_position: Dream
+sidebar_position: 1
 ---
 
 # 随想
