@@ -1,8 +1,4 @@
----
-sidebar_position: 1
----
-
-# 技术栈
+# 前端
 
 
 ```jsx title="src/pages/my-react-page.js"

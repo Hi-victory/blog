@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # 随想
 
 ## 人生
