@@ -38,8 +38,8 @@ export default function MyReactPage() {
 
 ```
 ## TypeScript
-```mdx title="src/pages/my-markdown-page.md"
- 一个很nb的类型约束强类型语言
+```
+ 类型约束强类型语言
 ```
 * 接口
 * 类型

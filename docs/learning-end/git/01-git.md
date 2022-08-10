@@ -27,3 +27,15 @@
 取出指定缓存
 git stash apply stash@{num}
 ```
+
+```
+取出并clear指定缓存
+git stash pop stash@{num}
+```
+> git reset
+
+```
+查看提交记录: git log
+回退到指定版本: git reset --HEAD code
+强行推送至远程: git push --force // -f
+```
