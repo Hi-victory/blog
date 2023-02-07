@@ -8,6 +8,7 @@
 
 > git push
 
+> git remote add origin "url"
 
 ## git stash
 
@@ -39,3 +40,11 @@ git stash pop stash@{num}
 回退到指定版本: git reset --HEAD code
 强行推送至远程: git push --force // -f
 ```
+
+## ssh密钥
++ 1.生成密钥
+    - ssh-keygen -t rsa -C your_email
++ 2.查看密钥
+    - cd ~/.ssh
++ 3.获取密钥
+    - cat ~/.ssh/id_rsa.pub
