@@ -41,6 +41,16 @@ git stash pop stash@{num}
 强行推送至远程: git push --force // -f
 ```
 
+```markdown
+git pull 提示错误 fatal: refusing to merge unrelated histories
+解决办法是：
+在git pull添加–allow-unrelated-histories
+
+: git pull origin master --allow-unrelated-histories
+
+让git允许提交不关联的历史代码。
+```
+
 ## ssh密钥
 + 1.生成密钥
     - ssh-keygen -t rsa -C your_email
