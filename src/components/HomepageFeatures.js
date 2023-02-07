@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '工作',
+    title: '博客',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
