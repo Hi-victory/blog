@@ -58,3 +58,8 @@ git pull 提示错误 fatal: refusing to merge unrelated histories
     - cd ~/.ssh
 + 3.获取密钥
     - cat ~/.ssh/id_rsa.pub
+
+## Husky 
+- Git hooks 工具
+
+husky 可以防止使用 Git hooks 的一些不好的 commit 或者 push。

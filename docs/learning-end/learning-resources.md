@@ -27,6 +27,15 @@ JavaScript版本，对前端友好，不建议看第一版本。
 
 [React Conf](https://conf.reactjs.org/)
 
+### 推荐资源
+最近字节开源了三款产品, 有兴趣可以看看。
+
+[Arco Design](https://arco.design/)
+
+[Semi Design](https://semi.design/)
+
+[modernjs](https://modernjs.dev/)
+
 ### 标准规范
 [W3C](https://www.w3.org/TR/)
 

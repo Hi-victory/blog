@@ -1,4 +1,4 @@
-# Rollup
+# rollup
 
 ## 预备知识
 1. 什么是ESM？
