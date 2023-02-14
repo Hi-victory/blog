@@ -9,3 +9,10 @@
 总感觉还有很多没有做好，理解深度不够，缺乏系统性的知识储备，需要去做的还有很多，
 慢慢来，任重而道远，最重要的是务实，脚踏实地，厚积薄发，跟随自己的内心去度过这一生，
 何时都不算太晚
+
+学会表达自己
+知道自己的特点何在，然后清晰地表达出来
+Know why you're different and clearly articulate it
+
+所有对你至关重要的人，你都要保持良好关系
+Remove friction for all stakeholders
