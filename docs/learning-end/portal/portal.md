@@ -12,6 +12,12 @@
 
 [chatGPT](https://chat.openai.com/auth/login)
 
+### Web前端
+
+[react技术揭秘](https://react.iamkasong.com/)
+
+[github学习资源](https://github.com/ascoders/weekly)
+
 ### Java资源
 
 [java成神之路](https://hollischuang.gitee.io/tobetopjavaer/#/)

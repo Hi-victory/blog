@@ -16,3 +16,7 @@ Know why you're different and clearly articulate it
 
 所有对你至关重要的人，你都要保持良好关系
 Remove friction for all stakeholders
+
+人生若只如初见，何事秋风悲画扇
+俏也不争春，只把春来报
+待到山花烂漫时，她在丛中笑
