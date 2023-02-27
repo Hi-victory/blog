@@ -1,5 +1,8 @@
 # 学习资源
 
+## 系统性学习
+![direct](/img/learn_end/direct.png)
+
 ## 推荐书籍
 
 ### JavaScript高级程序设计 第4版
