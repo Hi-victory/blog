@@ -16,3 +16,5 @@
 - string
 - Array
 - Object
+
+01.interview-ready.md

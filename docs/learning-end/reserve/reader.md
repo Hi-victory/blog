@@ -27,13 +27,14 @@
 ```
 
 ### tree-shaking
+[Tree shaking原理及应用](https://segmentfault.com/a/1190000040037144)
 ```
 它的实现关键得益于ES Module模块的静态分析功能
 在ES Module中，我们将模块加载分为两个阶段：静态分析和编译执行
 ```
-传送门：https://segmentfault.com/a/1190000040037144
+
 #### js垃圾回收机制
-[传送门]：https://zhuanlan.zhihu.com/p/80572782
+[js垃圾回收原理](https://zhuanlan.zhihu.com/p/80572782)
 - 内存生命周期：
 - 分配你所需要的内存
 - 使用分配到的内存（读、写）
@@ -41,7 +42,7 @@
 - 垃圾回收：当内存不再使用需要释放出来时，这个过程称为垃圾回收
 
 #### 动态生成模板（node端）
-[numjacks]：https://www.wenjiangs.com/doc/cylmx3thbq
+[numjacks](https://www.wenjiangs.com/doc/cylmx3thbq)
 
 ### Vite
 vite使用了esbuild rollup 双引擎进行编译
