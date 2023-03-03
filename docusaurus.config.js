@@ -24,7 +24,6 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl: '1938719360@qq.com',
         },
         theme: {
@@ -48,7 +47,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
