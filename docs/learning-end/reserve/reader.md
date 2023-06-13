@@ -13,7 +13,7 @@
 #### react-hyperscript
 - 可替代jsx，直接使用js进行编码
 
-### Tree shaking(摇树，树的优化)
+### Tree shaking(树的优化)
 - 使用webpack或者rollup实现，来进行按需加载
 - 删除未被调用的模块代码，实现减少包的体积，性能优化
 - 去掉冗余代码
