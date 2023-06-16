@@ -5,39 +5,34 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: '生活',
+    url: '/docs/life-end',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    description: '世界上只有一种英雄主义，那就是看清生活的真相，却依然热爱生活',
   },
   {
     title: '博客',
+    url: '/blog/2021-08-26-welcome',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    description: '有事没事瞎逼叨写',
   },
   {
     title: '学习',
+    url: '/docs/learning-end',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    description: '学，天之大也',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, url, title, description}) {
+
+  const handleClick = () => {
+    if (url) {
+      window.location.href = url;
+    }
+  }
+
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--4')} onClick={handleClick}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
