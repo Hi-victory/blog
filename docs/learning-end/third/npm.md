@@ -9,3 +9,6 @@ table
 
 前端工具函数
 - lodash
+
+芯片
+- verilog、system verilog
