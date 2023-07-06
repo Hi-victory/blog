@@ -37,19 +37,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '首页',
+        title: 'kyrieth',
         logo: {
-          alt: '欧文',
           src: 'img/icon/kyrie.jpg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
-            label: 'doc',
+            position: 'right',
+            label: '文档',
           },
-          {to: '/blog', label: 'blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'right'},
+          {to: '/blog', label: '学习', position: 'right'},
+          {to: '/blog', label: '工具', position: 'right'},
+          {to: '/blog', label: '项目', position: 'right'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

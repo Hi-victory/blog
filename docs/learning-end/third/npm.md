@@ -1,4 +1,4 @@
-# 插件
+# 插件库
 
 table
 - ali-react-table
