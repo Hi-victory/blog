@@ -19,4 +19,4 @@ HTML 块级引用元素，代表其中的文字是引用内容。通常在渲染
 从文档中删除的文字内容
 
 #### MDN
-[<Element>](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
+[Element](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
