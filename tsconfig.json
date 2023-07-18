@@ -1,0 +1,51 @@
+{
+  // This file is not used in compilation. It is here just for a nice editor experience.
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Projects */
+    // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
+    // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
+    // "tsBuildInfoFile": "./.tsbuildinfo",              /* Specify the path to .tsbuildinfo incremental compilation file. */
+    // "disableSourceOfProjectReferenceRedirect": true,  /* Disable preferring source files instead of declaration files when referencing composite projects. */
+    // "disableSolutionSearching": true,                 /* Opt a project out of multi-project reference checking when editing. */
+    // "disableReferencedProjectLoad": true,             /* Reduce the number of projects loaded automatically by TypeScript. */
+    /* Language and Environment */
+    // "lib": [],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    // "jsx": "preserve",                                /* Specify what JSX code is generated. */
+    // "moduleDetection": "auto",                        /* Control what method is used to detect module-format JS files. */
+    "extends": "@tsconfig/docusaurus/tsconfig.json",
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["DOM", "ESNext"],
+      "baseUrl": ".",
+      "resolveJsonModule": true,
+
+      // Duplicated from the root config, because TS does not support extending
+      // multiple configs and we want to dogfood the @tsconfig/docusaurus one
+      "allowUnreachableCode": false,
+      "exactOptionalPropertyTypes": false,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitOverride": true,
+      "noImplicitReturns": true,
+      "noPropertyAccessFromIndexSignature": false,
+      "noUncheckedIndexedAccess": true,
+      "strict": true,
+      "alwaysStrict": true,
+      "noImplicitAny": false,
+      "noImplicitThis": true,
+      "strictBindCallApply": true,
+      "strictFunctionTypes": true,
+      "strictNullChecks": true,
+      "strictPropertyInitialization": true,
+      "useUnknownInCatchVariables": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "importsNotUsedAsValues": "remove",
+      "moduleResolution": "NodeNext",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,                       /* Skip type checking all .d.ts files. */
+      "types": ["jest"]
+  },
+    "exclude": ["src/sw.js", "node_modules", "scripts", "build"]
+}

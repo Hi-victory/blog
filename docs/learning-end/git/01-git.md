@@ -1,4 +1,12 @@
-# git
+---
+id: git-note
+slug: /learning-end/git/01-git
+title: git
+date: 2020-12-30
+tags: [git, 工具]
+keywords: [git, 工具]
+---
+
 
 > git add
 
@@ -52,11 +60,11 @@ git pull 提示错误 fatal: refusing to merge unrelated histories
 ```
 
 ## ssh密钥
-+ 1.生成密钥
++ [x] 1.生成密钥
     - ssh-keygen -t rsa -C your_email
-+ 2.查看密钥
++ [x] 2.查看密钥
     - cd ~/.ssh
-+ 3.获取密钥
++ [x] 3.获取密钥
     - cat ~/.ssh/id_rsa.pub
 
 ## Husky 
