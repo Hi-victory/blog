@@ -29,7 +29,7 @@ const config = {
               position: 'right',
               label: '文档',
             },
-            {to: '/blog', label: '博客', position: 'right'},
+            {to: 'tags', label: '博客', position: 'right'},
             {to: '/blog', label: '学习', position: 'right'},
             {to: '/blog', label: '工具', position: 'right'},
             {to: '/blog', label: '项目', position: 'right'},

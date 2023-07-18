@@ -37,3 +37,18 @@ export default function TagsListByLetter({tags}: Props): JSX.Element {
     </section>
   );
 }
+
+export function TagsListByFlat({ tags }: Props): JSX.Element {
+    console.log(tags)
+    return (
+        <section className="margin-vert--lg">
+            <ul className="padding--none">
+                {tags.map(tag => (
+                    <li key={tag.permalink} className={styles.tag}>
+                        <Tag {...tag} />
+                    </li>
+                ))}
+            </ul>
+        </section>
+    )
+}
