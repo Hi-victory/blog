@@ -43,7 +43,7 @@ export function TagsListByFlat({ tags }: Props): JSX.Element {
     return (
         <section className="margin-vert--lg">
             <ul className="padding--none">
-                {tags.map(tag => (
+                { tags && tags?.length > 0 && tags.map(tag => (
                     <li key={tag.permalink} className={styles.tag}>
                         <Tag {...tag} />
                     </li>
