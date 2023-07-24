@@ -147,6 +147,8 @@ Error: Could not resolve './helloTypescript' from src/index.js
 
 ### 可视化
 
+打包后清晰展示文件的大小
+
 **10.visualizer**
 
 `rollup-plugin-visualizer`
