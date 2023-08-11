@@ -12,17 +12,18 @@ List 合计
 ```ts
   const reduceHandlers = <T, K extends { [P in keyof T]: string }>(
     dataSource: T[],
-    keys: string[]
+    keys: K[]
   ) => {
-    const amount: any = {};
+    const summaryMap: any = {} as T;
     keys.forEach((key: any) => {
-      amount[key] = (dataSource as unknown as T[])?.reduce((total, next) => {
+        summaryMap[key] = (dataSource as unknown as T[])?.reduce((total, next) => {
         // @ts-ignore
         return plus(total, next[key]);
       }, 0);
     });
-    return amount;
+    return summaryMap;
   };
+
 ```
 
 函数柯里化
