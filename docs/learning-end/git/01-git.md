@@ -49,10 +49,10 @@ git pre-checkout
 ```
 查看提交记录: git log
 回退到指定版本: git reset --HEAD code
-强行推送至远程: git push --force // -f
+强行推送至远程: git push origin master --force // -f
 ```
 
-```markdown
+```
 git pull 提示错误 fatal: refusing to merge unrelated histories
 解决办法是：
 在git pull添加–allow-unrelated-histories
