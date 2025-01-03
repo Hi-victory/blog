@@ -50,6 +50,8 @@ git pre-checkout
 查看提交记录: git log
 回退到指定版本: git reset --HEAD code
 强行推送至远程: git push origin master --force // -f
+// git push -f origin master
+// git push --force origin master
 ```
 
 ```
