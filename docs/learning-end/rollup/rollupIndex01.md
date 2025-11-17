@@ -16,6 +16,14 @@
 4. 兼容性
 5. 小，配合插件可以完成前端工程化的绝大多数工作
 
+> ESModule是ECMAScript 6（ES6）中引入的一种模块（module）体系，是一种静态化的模块方案，使得在编译时就能确定模块的依赖关系，以及输入和输出的变量
+> ESM的特性有：
+默认导出：一个模块中可以有一个默认的导出。
+命名导出：一个模块中可以有多个命名导出。
+导入命名空间：可以使用 import * as 语句导入其他模块的命名空间。
+导入默认：可以使用 import 语句导入其他模块的默认导出。
+导入命名：可以使用 import { } as 语句导入其他模块的命名导出。
+
 ## 如何使用Rollup？
 
 ### 命令行
@@ -118,7 +126,7 @@ Error: 'default' is not exported by src/commonjs.js, imported by src/index.js
 
 ### 多入口打包
 
-**08.multi-entry**
+**08.multip-entry**
 
 #### 应用场景在哪里？
 
