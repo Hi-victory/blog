@@ -5,8 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '当下的小站',
-  tagline: 'Docusaurus is cool',
+  title: 'kyrie的小站',
   url: 'https://kyrieth.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -24,13 +23,12 @@ const config = {
           },
           items: [
             {
-              type: 'doc',
-              docId: 'intro',
+              to: '/docs/learning-end/learning-resources',
               position: 'right',
               label: '文档',
             },
-            {to: 'tags', label: '博客', position: 'right'},
-            {to: '/blog', label: '学习', position: 'right'},
+            {to: '/docs/work-end/blog/first-blog', label: '博客', position: 'right'},
+            {to: '/docs/books/book', label: '学习', position: 'right'},
             {to: '/blog', label: '工具', position: 'right'},
             {to: '/blog', label: '项目', position: 'right'},
             {
@@ -153,7 +151,7 @@ const config = {
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '当下',
+          title: 'kyrie',
           copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
@@ -188,6 +186,7 @@ const config = {
             tagName: 'meta',
             name: 'theme-color',
             content: 'rgb(51 139 255)',
+            // content: 'rgb(0 255 191)',
           },
         ],
       },

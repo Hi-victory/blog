@@ -5,19 +5,19 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: '生活',
-    url: '/docs/life-end',
+    url: '/docs/life-end/make-trouble',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: '世界上只有一种英雄主义，那就是看清生活的真相，却依然热爱生活',
   },
   {
     title: '博客',
-    url: '/blog/2021-08-26-welcome',
+    url: '/docs/work-end/blog/first-blog',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: '有事没事瞎逼叨写',
   },
   {
     title: '学习',
-    url: '/docs/learning-end',
+    url: '/docs/books/book',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: '学，天之大也',
   },

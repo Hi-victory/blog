@@ -39,6 +39,7 @@
     "@popperjs/core": "^2.11.8",
     "dayjs": "^1.11.9",
     "docusaurus-plugin-image-zoom": "^0.1.4",
+    "docusaurus-plugin-matomo": "^0.0.8",
     "docusaurus-plugin-sass": "^0.2.5",
     "framer-motion": "^10.13.1",
     "loadsh": "^0.0.4",

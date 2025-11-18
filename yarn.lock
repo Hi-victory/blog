@@ -4283,6 +4283,11 @@ docusaurus-plugin-image-zoom@^0.1.4:
   dependencies:
     medium-zoom "^1.0.6"
 
+docusaurus-plugin-matomo@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-matomo/-/docusaurus-plugin-matomo-0.0.8.tgz#eb11cf9d0f145a27ed5b9dec3835db01fae71060"
+  integrity sha512-YSaDdjxI7uN1FuNLSGrQy4BmDEXwwyL6vac7GfmS7wFBLck/Ias5jHqENPBHXe36m2cYzyesGPQL1EsS9vanwA==
+
 docusaurus-plugin-sass@^0.2.5:
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/docusaurus-plugin-sass/-/docusaurus-plugin-sass-0.2.6.tgz#b4930a1fe1cc7bcead639bb1bee38bce0ffd073d"
